@@ -19,10 +19,32 @@ public class Main {
     }
     private static void task2() {
         System.out.println("задача 2");
+        int airTemperature = 7, airTemperature2 = 5;
+        if (airTemperature <= 5) {
+            System.out.println("На улице "+airTemperature+" градусов, нужно надеть шапку");}
+        else{
+            System.out.println("На улице "+airTemperature+" градусов, можно идти без шапки");
+        }
+        if (airTemperature2 <= 5) {
+            System.out.println("На улице "+airTemperature2+" градусов, нужно надеть шапку");}
+        else{
+            System.out.println("На улице "+airTemperature2+" градусов, можно идти без шапки");
+        }
 
     }
     private static void task3() {
-        System.out.println("задача 3");}
+        System.out.println("задача 3");
+        int speed1 = 58, speed2 = 79;
+        if (speed1 <= 60){
+            System.out.println("Если скорость "+speed1+", томожно ездить спокойно.");}
+        else {
+            System.out.println("Если скорость "+speed1+", то придется заплатить штраф");}
+        if (speed2 <= 60){
+            System.out.println("Если скорость "+speed2+", томожно ездить спокойно.");}
+        else {
+            System.out.println("Если скорость "+speed2+", то придется заплатить штраф");}
+
+    }
     private static void task4() {
         System.out.println("задача 4");}
 
