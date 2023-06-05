@@ -188,17 +188,14 @@ public class Main {
         }
     private static void task7() {
         System.out.println("задача 7");
-        int one =5, two =5, three = 5;
+        int one =7, two =6, three = 5;
         if (one>two&&one>three){
-            System.out.println("one самое большее число");
+            System.out.println( one+ " самое большее число");
         } else if (two>one&&two>three) {
-            System.out.println("two самое большее число");}
-        else if(three>one&&three>two) {
-            System.out.println("Three самое большее число");}
-        else{
-            System.out.println("два или все числа равны");
+            System.out.println(two+ " самое большее число");}
+        else {
+            System.out.println(three+ " самое большее число");}
+
         }
 
     }
-
-}
