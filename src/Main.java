@@ -195,7 +195,5 @@ public class Main {
             System.out.println(two+ " самое большее число");}
         else {
             System.out.println(three+ " самое большее число");}
-
         }
-
     }
