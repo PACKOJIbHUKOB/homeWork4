@@ -56,7 +56,8 @@ public class Main {
 
     private static void task4() {
         System.out.println("задача 4");
-        int age = 1, age2 = 4, age3 = 8, age4 = 22, age5 = 39, age6 = 92;
+        int age1 = 1, age2 = 4, age3 = 8, age4 = 22, age5 = 39, age6 = 92;
+        int age = age1;
         if (age < 2) {
             System.out.println("Если возраст человека равен " + age + ", то ему пора спать");
         } else if (age <= 2 || age > 6) {
@@ -188,14 +189,13 @@ public class Main {
         }
     private static void task7() {
         System.out.println("задача 7");
-        int one =5, two =5, three = 5;
-        if (one>two&&one>three){
+        int one =7, two =7, three = 5;
+        if (one>=two&&one>three){
             System.out.println( one+ " самое большее число");
         } else if (two>one&&two>three) {
             System.out.println(two+ " самое большее число");}
         else if (one==two&&two==three) {
-            System.out.println("все числа равны");
-
+            System.out.println("все числа равны "+one);
         } else {
             System.out.println(three+ " самое большее число");}
         }
